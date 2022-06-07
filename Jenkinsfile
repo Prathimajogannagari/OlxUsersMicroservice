@@ -1,11 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('checkout') {
-            steps {
-git 'https://github.com/Prathimajogannagari/OlxUsersMicroservice.git'
-            }
-        }
+    
 
     
         stage('compile') {
