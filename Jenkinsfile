@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-git 'https://github.com/Prathimajogannagari/OlxUsersMicroservice'
+git 'https://github.com/Prathimajogannagari/OlxUsersMicroservice.git'
             }
         }
 
